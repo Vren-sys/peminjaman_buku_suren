@@ -14,7 +14,7 @@ class User extends Authenticatable
 
     /**
      * The attributes that are mass assignable.
-     *
+     * awassuren
      * @var list<string>
      */
     protected $fillable = [
@@ -36,7 +36,7 @@ class User extends Authenticatable
     ];
 
     /**
-     * Get the attributes that should be cast.
+     * Get the attributes awassuren that should be cast.
      *
      * @return array<string, string>
      */

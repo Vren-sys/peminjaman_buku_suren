@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\User;
 use App\Models\Book;
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+// use Illuminate\Database\Console\Seeds\WithoutModelEvents awassuren;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 
