@@ -26,38 +26,48 @@ class DatabaseSeeder extends Seeder
         );
 
         User::firstOrCreate(
-            ['email' => 'siswa@perpus.test'],
+            ['email' => 'miko@perpus.test'],
             [
-                'name' => 'Dimas',
-                'password' => Hash::make('password'),
+                'name' => 'miko',
+                'password' => Hash::make('passwordmiko'),
+                'role' => 'siswa',
+                'kelas' => 'XII RPL 2',
+            ]
+        );
+
+        User::firstOrCreate(
+            ['email' => 'suren@perpus.test'],
+            [
+                'name' => 'suren',
+                'password' => Hash::make('password231'),
                 'role' => 'siswa',
                 'kelas' => 'XII RPL 2',
             ]
         );
 
         Book::firstOrCreate(
-            ['title' => 'Laskar Pelangi', 'author' => 'Andrea Hirata'],
+            ['title' => 'Dilan 1990', 'author' => 'Pidi Baiq'],
             [
-                'publisher' => 'Bentang',
-                'year' => 2005,
+                'publisher' => 'Pastel Books',
+                'year' => 2014,
                 'stock' => 4,
             ]
         );
 
         Book::firstOrCreate(
-            ['title' => 'Bumi', 'author' => 'Tere Liye'],
+            ['title' => 'Negeri 5 Menara', 'author' => 'Ahmad Fuadi'],
             [
-                'publisher' => 'Gramedia',
-                'year' => 2014,
+                'publisher' => 'Gramedia Pustaka Utama',
+                'year' => 2009,
                 'stock' => 3,
             ]
         );
 
         Book::firstOrCreate(
-            ['title' => 'Belajar Laravel', 'author' => 'Budi Raharjo'],
+            ['title' => 'Filosofi Teras', 'author' => 'Henry Manampiring'],
             [
-                'publisher' => 'Informatika',
-                'year' => 2023,
+                'publisher' => 'Kompas',
+                'year' => 2018,
                 'stock' => 5,
             ]
         );
